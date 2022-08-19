@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JWD-Menu</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header class="cabecalho"> 
+    </header> 
+    <div class="menu">
+        <a href="gameplay.html"><img src="image/Group 1.png" alt="Uma imagem impressionante"></a>
+        <a href="origens.html"><img src="image/Group 2.png"></a>
+
+        <a href="download.html"><img src="image/Group 9.png"></a>
+
+        <a href="jogabilidade.html"><img src="image/Group 3.png"></a>
+        <a href="image.html"><img src="image/ImageGroup.png"></a>
+
+    </div>
+    <div class="rodape">
+    </div>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(function () {
+        console.log('service worker registered');
+      })
+      .catch(function () {
+        console.warn('service worker failed');
+      });
+  }
+</script>
+</body>
+</html>
